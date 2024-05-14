@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Трекер задач на JS" />
+    <link rel="icon" href="./favicon.png" type="image/png">
+    <title>Top tasks</title>
+</head>
+<body>
+    <div class="tasks">
+        <div class="tasks-header">TOP Tasks</div>
+        <form class="tasks-form">
+            <input type="text" class="tasks-form__input" name="tasks-form__input">
+            <div class="tasks-form__error no-display">Error! Input empty </div>  
+        </form>
+        <div class="tasks-pinned">
+            <div class="tasks-pinned__header">Pinned:</div>
+            <div class="tasks-pinned__empty">No pinned tasks</div>
+            <ul class="tasks-pinned__list">
+            </ul>
+        </div>
+        <div class="tasks-all">
+            <div class="tasks-all__header">All Tasks:</div>
+            <div class="tasks-all__empty">No tasks found</div>
+            <ul class="tasks-all__list">
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
