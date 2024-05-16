@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/bbju32ai43581d2y?svg=true)](https://ci.appveyor.com/project/ajoq/top-tasks)
 
-https://ajoq.github.io/top-tasks/
+https://ajoq.github.io/js-top-tasks/
 
 ### TOP Tasks
 
